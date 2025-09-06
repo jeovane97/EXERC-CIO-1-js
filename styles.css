@@ -1,0 +1,102 @@
+/* font-family: "Roboto Condensed", sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    appearance: none;
+}
+body{
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/ChatGPT\ Image\ 3\ de\ set.\ de\ 2025\,\ 19_24_10.png);
+    
+
+}
+#logo1{
+    position: relative;
+    display: block;
+    max-height: 150px;
+    max-width: 150px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 348px;
+    height: 648px;
+    background-color:   rgb(210, 255, 211);
+    border-radius: 20px;
+    padding: 42px 24px 23px;
+}
+select, input{
+   max-height: 48px;
+   height: 100%;
+    width: 100%;
+    margin-bottom: 7px;
+     color: #44a510;
+     font-size: 16px;
+     font-weight: 700;
+     cursor: pointer;
+     padding-left: 18px;
+     border: none;
+}
+input::placeholder{
+ color: #44a510;
+ font-size: 16px;
+ font-weight: 700;
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0e6f3d;
+}
+button{
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #772FD3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.8;
+}
+    button:active{
+        opacity: 0.5;
+    }
+section{
+    width: 300px;
+    height: 247px;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    align-items: center;
+    text-align: center;
+    padding-top: 16px;
+}
+img{
+ height: 44px;
+ width: 44px;
+ border-radius: 50%;
+}
+.arrow{
+    color:#0e6f3d ;
+}
+
+@media screen and (min-height:800px ) {
+    body{
+        height: 100vh;
+    }
+}
